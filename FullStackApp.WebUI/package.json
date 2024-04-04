@@ -1,0 +1,28 @@
+{
+  "name": "fullstackapp.webui",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "localstorage": "^1.0.1",
+    "next": "14.1.0",
+    "primeflex": "^3.3.1",
+    "primeicons": "^6.0.1",
+    "primereact": "^10.5.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "use-local-storage": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  }
+}

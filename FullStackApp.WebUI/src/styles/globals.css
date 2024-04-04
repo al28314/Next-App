@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.crearBtn {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(39, 39, 39);
+    font-family: 'Roboto';
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 900
+}
+
+.createDialog {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.updateBtn {
+    margin-left: 5px;
+    background: none;
+    border: none;
+    padding: 5px;
+    border-radius: 100%;
+    cursor: pointer;
+    color: hsl(180, 53%, 49%);
+    transition-duration: 0.25s;
+}
+
+.deleteBtn {
+    margin-left: 5px;
+    background: none;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: hsl(0, 53%, 49%);
+    transition-duration: 0.25s;
+}
+
+.deleteBtn:hover {
+    background-color: hsla(0, 77%, 63%, 0.486);
+}
+
+.updateBtn:hover {
+    background-color: hsla(0, 5%, 75%, 0.301);
+}
+
+.editDialog {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+:root {
+    --background-color: whitesmoke;
+    --second-bg: grey;
+}
+
+.loginTitle {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.userName {
+    display: flex;
+    margin: auto;
+    width: 90%;
+}
+
+.password {
+    display: flex;
+    margin: auto;
+    width: 90%;
+    margin-top: 5%;
+}
+
+.loginDiv {
+    box-shadow: 5px 5px 10px hsla(0, 0%, 0%, 0.356);
+    width: 35vh;
+    margin: auto;
+    margin-top: 20vh;
+    border-radius: 25px;
+    height: 50vh;
+    text-align: center;
+}
+
+.loginBtn {
+    display: flex;
+    margin: auto;
+    width: 90%;
+    margin-top: 5%;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 700;
+    text-align: middle;
+    justify-content: center;
+    text-justify: center;
+}
+
+.facebookBtn {
+    margin-left: 10px;
+    width: 145px;
+}
+
+.googleBtn {
+    width: 145px;
+}
