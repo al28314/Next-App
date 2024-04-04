@@ -136,7 +136,7 @@ export default function Home() {
     <>
       <Toast ref={toast}/>
       <h1 className="title">Index</h1>
-      <Button className="crearBtn" severity="success" onClick={() => setVisible(true)}>Crear</Button>
+      <Button className="crearBtn" severity="success" onClick={() => setVisible(true)}>Create</Button>
       <InputSwitch checked={checked} onChange={(e: InputSwitchChangeEvent) => setChecked(e.value)} />
       <DataTable className="gamesTable" value={games} tableStyle={{ minWidth: '50rem' }}>
         <Column field="name" header="Name"></Column>
