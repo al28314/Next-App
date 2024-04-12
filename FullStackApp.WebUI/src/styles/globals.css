@@ -109,3 +109,21 @@
 .googleBtn {
     width: 145px;
 }
+
+.signup-form {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.signupBtn {
+    display: flex;
+    margin: auto;
+    width: 90%;
+    margin-top: 5%;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 700;
+    text-align: middle;
+    justify-content: center;
+    text-justify: center;
+}
